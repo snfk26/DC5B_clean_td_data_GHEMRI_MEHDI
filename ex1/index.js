@@ -1,3 +1,11 @@
-import pandas as pd 
+const fs =  require('fs');
+const csvParser = require('csv-parser');
 
-df = pd.read_csv('test.csv').dropna()
+fs.createReadStream('test.csv')
+.pipe(csvParser())
+.on('data',(data)=> {
+console.log(data);
+})
+.on('end', () => {
+    console.log('fichier parcouru');
+}); 
