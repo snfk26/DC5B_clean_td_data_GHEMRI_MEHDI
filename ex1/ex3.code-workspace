@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "../../Desktop/DMM/dc5_B_Ghemri_Mehdi/ex3"
+		},
+		{
+			"path": "../../Desktop/DMM/dc5_B_Ghemri_Mehdi/ex04"
+		},
+		{
+			"path": "../../Desktop/DMM/dc5_B_Ghemri_Mehdi/ex05"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+		
+		]
+	}
+}

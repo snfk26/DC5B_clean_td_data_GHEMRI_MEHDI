@@ -1,10 +1,11 @@
 const fs =  require('fs');
 const csvParser = require('csv-parser');
 
-fs.createReadStream('test.csv')
+fs.createReadStream('donnees.csv')
 .pipe(csvParser())
 .on('data',(data)=> {
-    for (i = 0;i < 20;i++) {
+    i = 0;
+    if (i < 20) {
     console.log(data);
     } 
 })
